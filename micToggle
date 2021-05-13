@@ -1,3 +1,11 @@
 #!/bin/sh
 
-v=$(amixer get Capture | grep off) && [ -z "$v" ] && amixer set Capture toggle && notify-send "Microfone desativado" || amixer set Capture toggle && notify-send "Microfone ativado"
+v=$(amixer get Capture | grep off)
+
+if [ -z "$v" ]; then
+    notify-send "Microfone desligado."
+else
+    notify-send "Microfone ligado."
+fi
+
+amixer set Capture toggle
