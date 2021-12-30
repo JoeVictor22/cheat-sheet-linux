@@ -1,8 +1,0 @@
-#!/bin/sh
-
-# A tecla caps funciona como escape se pressionada e Ctrl se segurada
-# isso facilita o uso de programas como Vim e Emacs
-setxkbmap -option ctrl:nocaps
-killall xcape 2>/dev/null ; xcape -e 'Control_L=Escape'
-# Troca a tecla menu pela Multikey, que permite usar o Xcompose para ter acesso a caracteres especiais
-xmodmap -e 'keycode 135 = Multi_key'
