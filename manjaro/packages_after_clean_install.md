@@ -6,6 +6,8 @@
 
 ```console
 mhwd-kernel -l
+mhwd-kernel -li
+mhwd-kernel -i linux517
 ```
 
 ### Update packages
