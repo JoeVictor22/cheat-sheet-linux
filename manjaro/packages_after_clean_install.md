@@ -31,6 +31,7 @@ sudo pacman -S htop
 sudo ln -s /var/lib/snapd/snap /snap
 sudo snap install code --classic
 sudo snap install opera
+sudo snap install chromium
 ```
 
 ## Compilers/runtime
