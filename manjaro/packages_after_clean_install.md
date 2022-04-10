@@ -29,7 +29,7 @@ sudo pacman -S gnu-netcat
 sudo pacman -S iputils
 sudo pacman -S htop
 sudo snap install code --classic
-sudo snap instal opera
+sudo snap install opera
 ```
 
 ## Compilers/runtime
