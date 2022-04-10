@@ -28,6 +28,7 @@ sudo pacman -S net-tools
 sudo pacman -S gnu-netcat
 sudo pacman -S iputils
 sudo pacman -S htop
+sudo ln -s /var/lib/snapd/snap /snap
 sudo snap install code --classic
 sudo snap install opera
 ```
