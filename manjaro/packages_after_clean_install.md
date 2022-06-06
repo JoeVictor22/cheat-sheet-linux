@@ -19,6 +19,7 @@ sudo pacman -Syu
 ### Packages/programs
 
 ```console
+sudo pacman -S base-devel
 sudo pacman -Sy gcc
 sudo pacman -S make
 sudo pacman -S snapd
