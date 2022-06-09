@@ -52,6 +52,14 @@ nvm install node
 sudo pacman -S jre-openjdk-headless jre-openjdk jdk-openjdk openjdk-doc openjdk-src
 ```
 
+### Ruby
+```console
+# install from binary if gem installs do not work
+sudo pacman -S rails
+gem install rails --no-document
+gem update
+```
+
 ### Rust
 
 ```console
